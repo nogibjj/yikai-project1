@@ -1,0 +1,147 @@
+html {
+    /*    1rem = 16px*/
+    font-size: 1rem;
+}
+
+body {
+    background-color: white;
+    font-family: 'Futura', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    margin-bottom: 1.3rem;
+}
+
+/*this is a group selection, selecting all the headlines h1-h4*/
+h1,
+h2,
+h3,
+h4 {
+    /*    headline font*/
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    margin: 0 0 0.5rem 0;
+    font-size: 3.157rem;
+}
+
+h2 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414rem 0 0.5rem 0;
+    font-size: 2.369rem;
+}
+
+h3 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.777rem;
+}
+
+h4 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.333rem;
+}
+
+
+/*Interactive elements*/
+/* link*/
+a {
+    color:#166088;
+}
+
+a:hover {
+    /* color: #C0D6DF; */
+    color: orange;
+    text-decoration: none;
+}
+
+/*self-defined class names*/
+.view {
+    background:rgb(220,188,248) url('../img/newspaper.jpg') center center no-repeat;
+    background-size: cover;
+    padding-top: 11rem;
+    padding-bottom: 3.5rem;
+}
+
+.view h1{
+    padding-left:50px;
+    color: orange;
+}
+
+
+.projectbackground{
+    /* background-color:#F2C299; */
+    background-color:rgb(228, 242, 247);
+    padding-top: 6.5rem;
+    padding-bottom: 5rem;
+}
+
+.project img {
+    filter: grayscale(50%);
+}
+
+.project img:hover {
+    filter: grayscale(0%);
+}
+
+/*navigation*/
+/*-----navigation background------*/
+.navbackground{
+    background-color:rgb(255,255,255,0.7);
+}
+
+/*-----navigation button in the mobile view------*/
+/*-----navigation brand name------*/
+.navbar-light .navbar-brand {
+    padding-left: 1rem;
+    color: #996666;
+    font-weight:900;
+}
+
+/*-----navigation brand name hover color----*/
+.navbar-light .navbar-brand:hover{
+    color: #166088;
+}
+
+/*-------navigation menu links--------*/
+.navbar-light .navbar-nav .nav-link{
+    color: #4F6D7A;
+    font-size:1.2rem;
+    padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav :hover{
+    color: orange;
+}
+
+.contactbackground {
+    padding-top: 1rem;
+    background-color: #C0D6DF;
+    color: #4F6D7A;
+}
+
+/*footer*/
+footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.info{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contactbackground p{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.date{
+    margin-top: 5rem;
+}

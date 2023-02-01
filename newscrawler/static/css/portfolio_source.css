@@ -1,0 +1,137 @@
+body {
+  background-color: white;
+  font-family: 'Futura', sans-serif;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+h1{
+  color:rgb(255, 177, 31);
+  font-weight: 700;
+  font-size: 3.157rem;
+}
+
+/*navigation*/
+/*-----navigation background------*/
+.navbackground{
+  background-color:rgba(255,255,255,0.9);
+}
+
+/*-----navigation brand name------*/
+.navbar-light .navbar-brand {
+  padding-left: 1rem;
+  color: #996666;
+  font-weight:900;
+}
+
+/*-----navigation brand name hover color----*/
+.navbar-light .navbar-brand:hover{
+  color: #4F6D7A;
+}
+
+.view {
+  background: rgb(228, 242, 247) url('../img/newspaper.jpg') center center no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.checkbox{
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.row{
+  padding-left: 35%;
+}
+
+.checkbox input{
+  width:20px;
+  height:20px;
+  margin-right: 15px;
+}
+
+.numnews-form input{
+  width:80px;
+  margin-left:15px;
+  margin-right:15px;
+  font-size: 1.5rem;
+}
+
+.numnews-form{
+  margin-bottom:1rem;
+}
+
+.switch-form input{
+  width:20px;
+  height:20px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+label, form{
+  font-size: 1.5rem;
+}
+
+#reactEntry{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.sources .checkbox{
+  padding-left: 42%;
+}
+
+.comment-form input{
+  width:120px;
+  margin-left:15px;
+  margin-right:15px;
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.3rem;
+  border-color: #4F6D7A;
+  color: #4F6D7A;
+  background-color: #DBE9EE;
+  border-radius: 12px;
+}
+
+button:hover{
+  border-color: #4F6D7A;
+  background-color: #4F6D7A;
+  color: #DBE9EE;
+}
+
+.boxed{
+  border: 1px solid lightgray ;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: darkorange;
+}
+
+.news-meta{
+  color: grey;
+}
+
+.list-news{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+h6{
+  font-weight: 790;
+}
