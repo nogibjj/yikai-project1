@@ -1,0 +1,12 @@
+
+beautifulsoup4==4.11.1
+bs4==0.0.1
+Flask==2.2.2
+Flask-Cors==3.0.10
+
+html5lib==1.1
+
+pyparsing==3.0.9
+pyperclip==1.8.2
+soupsieve==2.3.2.post1
+virtualenv==20.17.1
